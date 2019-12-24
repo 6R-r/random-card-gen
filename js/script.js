@@ -15,6 +15,9 @@ window.onload = function () {
     if( y == 2 || y == 3){
         document.querySelector("#symbol").style.color = "red";
         document.querySelector("#symbol2").style.color = "red";
+    }else{
+        document.querySelector("#symbol").style.color = "black";
+        document.querySelector("#symbol2").style.color = "black";
     }
 
 }
